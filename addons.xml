@@ -75,7 +75,7 @@ the `Design By Contract`_ methodology support in Python.</description>
 	<extension point="xbmc.addon.repository" name="NordishByNature Addons">
 		<info compressed="false">http://raw.github.com/mablae/xbmc-repo-nordish-by-nature/master/addons.xml</info>
 		<checksum>http://raw.github.com/mablae/xbmc-repo-nordish-by-nature/master/addons.xml.md5</checksum>
-		<datadir zip="false">http://github.com/mablae/xbmc-repo-nordish-by-nature/raw/master/</datadir>
+		<datadir zip="true">http://github.com/mablae/xbmc-repo-nordish-by-nature/raw/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Addons like CallerId and Twisted Module</summary>
