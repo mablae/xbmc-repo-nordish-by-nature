@@ -1,85 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="script.module.twisted" name="Twisted" version="13.2.0"
-	provider-name="NordishByNature">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.zope-interfaces" version="4.0.5"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>twisted Network Lib repack for XBMC</summary>
-		<description>XBMC add-on provides a simplest way to configure actions
-			to be performed for each add-on request using XML.</description>
-		<disclaimer>This addon makes no warranties, expressed or implied, and
-			hereby disclaims and negates all other warranties, including without
-			limitation, implied warranties or conditions of merchantability,
-			fitness for a particular purpose, or non-infringement of intellectual
-			property or other violation of rights. Further, PlayIt addon does not
-			warrant or make any representations concerning the accuracy, likely
-			results, or reliability of the use of the materials on the Internet
-			web site where from data is retrieved or otherwise relating to such
-			materials or on any sites linked to this addon. Videos are soruced
-			from video-hosting websites that are having full rights to remove
-			such access to video if required.</disclaimer>
-		<license>GNU GPL v3</license>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="xbmc.addon.call-notifications" name="Call Notifications" version="0.2.0"
-	provider-name="mablae">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.twisted" />
-	</requires>
-	<extension point="xbmc.service" library="service.py"
-		start="startUpService">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Show incoming calls in XBMC!</summary>
-		<description>Works with FritzBox and Ncid. Please give feedback to improve!</description>
-		<disclaimer>This addon makes no warranties, expressed or implied, and
-			hereby disclaims and negates all other warranties, including without
-			limitation, implied warranties or conditions of merchantability,
-			fitness for a particular purpose, or non-infringement of intellectual
-			property or other violation of rights.</disclaimer>
-		<license>GNU GPL v3</license>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="script.module.zope-interfaces" name="Twisted" version="4.0.5"
-	provider-name="NordishByNature">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary>Zope Interface Lib repack for XBMC</summary>
-		<description>This package provides an implementation of "object interfaces" for Python.
-Interfaces are a mechanism for labeling objects as conforming to a given
-API or contract. So, this package can be considered as implementation of
-the `Design By Contract`_ methodology support in Python.</description>
-		<disclaimer>This addon makes no warranties, expressed or implied, and
-			hereby disclaims and negates all other warranties, including without
-			limitation, implied warranties or conditions of merchantability,
-			fitness for a particular purpose, or non-infringement of intellectual
-			property or other violation of rights. </disclaimer>
-		<license>ZPL</license>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="xbmc.repo.nordish-by-nature" name="NordishByNature Addons" version="0.3.0" provider-name="mablae">
+<addon id="xbmc.repo.nordish-by-nature" name="NordishByNature Addons" version="0.4.0" provider-name="mablae">
 	<extension point="xbmc.addon.repository" name="NordishByNature Addons">
 		<info compressed="false">http://raw.github.com/mablae/xbmc-repo-nordish-by-nature/master/addons.xml</info>
 		<checksum>http://raw.github.com/mablae/xbmc-repo-nordish-by-nature/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://github.com/mablae/xbmc-repo-nordish-by-nature/raw/master/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Addons like CallerId and Twisted Module</summary>
-		<description>Download and install addons from NordishByNature repository. </description>
+		<summary>NordishByNature Addons</summary>
+		<description>Current Addons:[CR] - Call Notifications[CR] - Twisted[CR] - Zope Interface</description>
 		<disclaimer>All Beta. Have fun! </disclaimer>
 		<platform>all</platform>
 	</extension>
