@@ -53,13 +53,10 @@ class Generator:
 
     def _generate_zips(self):
         # addon list
-
-        # final addons text
-
         addons = self._get_addons()
 
+        # make sure we have repo dir
         os.system("mkdir -p repo")
-
 
         for addon in addons:
             if self._read_addon_xml(addon) is not False:
